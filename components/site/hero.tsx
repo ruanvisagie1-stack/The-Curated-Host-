@@ -27,7 +27,7 @@ export function Hero() {
   return (
     <section
       id="top"
-      className="relative flex h-[100svh] min-h-[640px] w-full items-end overflow-hidden bg-foreground"
+      className="relative flex h-[75svh] min-h-[520px] w-full items-end overflow-hidden bg-foreground sm:h-[100svh] sm:min-h-[640px]"
     >
       {heroSlides.map((slide, i) => (
         <div
